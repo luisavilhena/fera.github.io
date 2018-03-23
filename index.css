@@ -1,0 +1,364 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   */
+
+   html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, embed, 
+   figure, figcaption, footer, header, hgroup, 
+   menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+   	margin: 0;
+   	padding: 0;
+   	border: 0;
+   	font-size: 100%;
+   	font: inherit;
+   	vertical-align: baseline;
+   }
+   /* HTML5 display-role reset for older browsers */
+   article, aside, details, figcaption, figure, 
+   footer, header, hgroup, menu, nav, section {
+   	display: block;
+   }
+   body {
+   	line-height: 1;
+   }
+   ol, ul {
+   	list-style: none;
+   }
+   blockquote, q {
+   	quotes: none;
+   }
+   blockquote:before, blockquote:after,
+   q:before, q:after {
+   	content: '';
+   	content: none;
+   }
+   table {
+   	border-collapse: collapse;
+   	border-spacing: 0;
+   }
+
+   * {
+   	-webkit-box-sizing: border-box;
+   	-moz-box-sizing: border-box;
+   	box-sizing: border-box;
+   }
+   .clear {
+      clear: both;
+   }
+
+   .wrapper {
+      width: 1000px;
+      margin: 0 auto;
+   }
+   body {
+      background-image: url("./img/bg.jpg");
+      
+   }
+
+   .logotipo{
+      width: 1000px;
+      height:134px;
+      
+   }
+   .logo {
+      width: 242px;
+      height: 92px;
+      background-image: url("./img/logofera.png");
+      margin:0 auto;
+      position: relative;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 100%;
+
+   }
+   .bandeira {
+      width: 1000px;
+      height: 110px;
+      padding-top: 49px;
+
+      background-image: url("./img/faixa.jpg");
+   }
+   .imagemband {
+      background-image: url("./img/bandeira.png");
+      position: relative;
+      margin: 0 auto;
+      background-repeat: no-repeat;
+      width: 573px;
+      height: 102px;
+      text-align: center;
+
+
+   }
+
+   .imagemband h1 {
+      font-size: 41px;
+      color: #f9f9e7;
+      font-family: "Myriad Pro", sans-serif;
+      padding-top: 25px;
+
+   }
+
+   .principal {
+      width: 1000px;
+      height: 634px;
+
+   }
+   .principal h1 {
+      color: #a43623;
+      text-align: center;
+      font-family: "Myriad Pro", sans-serif;
+      padding-top: 56px;
+      width: 573px;
+      
+      margin:0 auto;
+      position: relative;
+      font-size:30px;
+   }
+   
+   .blackblock {
+      width: 618px;
+      height: 330px;
+      background-color: black;
+      margin:0 auto;
+      position: relative;
+      margin-top: 50px;
+   }
+
+   .blackblock .item {
+      width: 618px;
+      height: 330px;
+      background-color: green;
+   }
+
+   .blackblock .item-green {
+      background-color: green;
+   }
+
+   .blackblock .item-purple {
+      background-color: purple;
+   }
+
+   .blackblock .item-yellow {
+      background-color: yellow;
+   }
+
+   .blackblock .item-red {
+      background-color: red;
+   }
+
+   .blackblock .owl-prev {
+      width: 27px;
+      height: 58px;
+      background-image: url("./img/seta-esq.png") !important;
+      margin-left: -50px;
+   }
+
+   .blackblock .owl-nav {
+      position: absolute;
+      padding-top: 23%;
+      top: 0;
+   }
+
+   .blackblock .owl-next {
+      width: 27px;
+      height: 58px;
+      background-image: url("./img/seta-dir.png") !important;
+      margin-left: 660px;
+      /*background: url("./img/seta-esq.png");*/
+   }
+
+   .blackblock .owl-nav span {
+      display: none;
+   }
+
+   .faixastotal {
+      width: 820px;
+      margin: 0 auto;
+      position: relative;
+   }
+
+   .faixa {
+      width: 192px;
+      height: 5px;
+      background-color: #61b199;
+      margin-top: 45px;
+      float: left;
+      opacity: 0.4;
+   }
+   .texto{
+      font-size: 17px;
+      float: left;
+      margin-top: 45px;
+      margin-left: 48px;
+      margin-right: 48px;
+      color: #61b199;
+      font-family: "Myriad Pro", sans-serif;
+
+   }
+
+   .apresentar
+   {
+    width:   864px;
+
+    margin: 0 auto;
+    position: relative;
+ }
+
+ .apresentar h2 {
+   color: #f6f4e6;
+   font-family: "Myriad Pro", sans-serif;
+   text-align: center;
+   font-size: 61px;
+   margin-top: 207px;
+   text-transform: uppercase;
+   text-shadow: 3px 3px 1px rgba(125, 163, 148, 0.75);
+
+}
+.apresentar p {
+   width: 665px;
+   font-size: 21px;
+   font-family: "Myriad Pro", sans-serif;
+   color: #61b199;
+   text-align: center;
+   margin: 0 auto;
+   display: block;
+   margin-top: 37px;
+
+}
+
+.quadrados {
+   width: 1000px;
+   height: 300px;
+   margin: 0 auto;
+   position: relative;
+   margin-top: 46px;
+
+
+}
+.laranja {
+   width: 295px;
+   float: left;
+   margin-left: 35px;
+
+}
+.position {
+   width: 285px;
+   height: 285px;
+
+}
+
+.fundo {
+   position: absolute;
+   background-image: url("./img/fundo.png");
+   width: 285px;
+   height: 285px;
+   float: left;
+   padding-left: 60px;
+     margin-top: 10px;
+   margin-left: 20px;
+   opacity: 0.2;
+}
+.quadrado-laranja {
+   height: 285px;
+   background-color: #db6830;
+   width: 100%;
+   position: absolute;
+   width: 295px;
+
+
+}
+.social {
+   width: 164px;
+   height: 52px;
+   padding-top: 14px;
+   margin: 0 auto;
+   position: relative;
+
+}
+.risco {
+   margin-top: 20px;
+   margin-left: 5px;
+   width: 20px;
+   height: 2px;
+   background-color: #8fa094;
+   position: relative;
+   float: left;
+
+}
+.facebook {
+   background-image: url("./img/face.png");
+   position: relative;
+   background-repeat: no-repeat;
+   float: left;
+   margin-left: 9px;
+   width: 51px;
+   height: 42px;
+}
+.linkedin {
+   background-image: url("./img/linkedin.png");
+   position: relative;
+   background-repeat: no-repeat;
+   float: left;
+   margin-left: 1px;
+   width: 51px;
+   height: 42px;
+}
+
+
+.quadrado-branco {
+   height: 285px;
+   background-color:  #faf7e4;
+   width: 100%;
+   width: 295px;
+      position: absolute;
+}
+
+
+.quadrado-verde{
+   height: 285px;
+   background-color: #467885;
+   width: 100%;
+   width: 295px;
+      position: absolute;
+}
+
+.footer {
+   width: 600px;
+   height: 287px;
+   margin: 0 auto;
+   position: relative;
+   display: block;
+
+}
+.final {
+   height: 80px;
+   width: 590px;
+   margin-top: 55px;
+   padding-top: 23px;
+    background-image: url("./img/bandeiraverde.png");
+   position: relative;
+   background-repeat: no-repeat;
+
+}
+.final h4 {
+   color: #e7edd7;
+      text-align: center;
+      font-family: "Myriad Pro", sans-serif;
+      width: 530px;
+      
+      margin:0 auto;
+      position: relative;
+      font-size:32px;
+}
+
+
